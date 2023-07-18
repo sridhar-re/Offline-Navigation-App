@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Chimpunkofflinenav</string>
+    <string name="fetch_local_map">FETCH LOCAL MAP</string>
 </resources>
