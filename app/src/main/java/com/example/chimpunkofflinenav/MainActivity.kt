@@ -16,8 +16,8 @@ import java.io.FileInputStream
 
 class MainActivity : AppCompatActivity() {
     companion object{
-        val CHENNAI = LatLong(12.902640, 80.227340)
-        val UK = LatLong(52.492766, -1.113446)
+        val CHENNAI = LatLong(12.902661, 80.227296)
+        val GOA = LatLong(15.568365, 73.752938)
     }
     private lateinit var b: ActivityMainBinding
 
@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
                 openmap(uri)
             }
         }
-        b.openmap.setOnClickListener{
+        b.openMap.setOnClickListener{
             contract.launch(
                 Intent(
                     Intent.ACTION_OPEN_DOCUMENT
@@ -78,9 +78,8 @@ class MainActivity : AppCompatActivity() {
 
         b.mapView.layerManager.layers.add(renderLayer)
 
-        b.mapView.setCenter(
-            CHENNAI)
-        b.mapView.setZoomLevel(10)
+        b.mapView.setCenter(CHENNAI)
+        b.mapView.setZoomLevel(18)
 
 
     }

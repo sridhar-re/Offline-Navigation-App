@@ -43,18 +43,18 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     //Maps code dependencies
-    implementation 'org.mapsforge:mapsforge-core:0.19.0'
-    implementation 'org.mapsforge:mapsforge-map:0.19.0'
-    implementation 'org.mapsforge:mapsforge-map-reader:0.19.0'
-    implementation 'org.mapsforge:mapsforge-themes:0.19.0'
+    implementation 'org.mapsforge:mapsforge-core:0.18.0'
+    implementation 'org.mapsforge:mapsforge-map:0.18.0'
+    implementation 'org.mapsforge:mapsforge-map-reader:0.18.0'
+    implementation 'org.mapsforge:mapsforge-themes:0.18.0'
     //Android dependencies
-    implementation 'org.mapsforge:mapsforge-map-android:0.19.0'
+    implementation 'org.mapsforge:mapsforge-map-android:0.18.0'
     implementation 'com.caverock:androidsvg:1.4'
     //POI Core dependencies
-    implementation 'org.mapsforge:mapsforge-core:0.19.0'
-    implementation 'org.mapsforge:mapsforge-poi:0.19.0'
+    implementation 'org.mapsforge:mapsforge-core:0.18.0'
+    implementation 'org.mapsforge:mapsforge-poi:0.18.0'
     //POI Android dependencies
-    implementation 'org.mapsforge:mapsforge-poi-android:0.19.0'
+    implementation 'org.mapsforge:mapsforge-poi-android:0.18.0'
 
 
 }
